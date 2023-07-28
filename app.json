@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c2aa9905-78eb-4f27-8dcc-3bda4080dde7"
+      }
+    },
+    "owner": "tylerwu"
   }
 }
