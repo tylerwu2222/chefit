@@ -13,6 +13,14 @@ export const globalStyles = StyleSheet.create({
     justifyContent: 'center',
     paddingTop: 150
   },
+  paddedContainer: {
+    // backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingTop: 150,
+    paddingLeft: 30,
+    paddingRight: 30
+  },
   titleText: {
     fontSize: 35,
     color: globalColors.greyFont

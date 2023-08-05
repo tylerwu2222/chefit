@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
     },
     tinyImage: {
         width: 150,
-        height: 150
+        height: 150,
+        borderRadius: 5
     }
 });
 
@@ -34,8 +35,7 @@ export default function RecipeCard({
     const navigation = useNavigation();
     const navigateToRecipe = (title, ingredients, steps) => {
         console.log('navigating to', title);
-        navigation.navigate('Start Cooking', { recipe: title, ingredients: ingredients, steps: steps });
-
+        navigation.navigate('Start Cooking', { recipe: title, image: img, ingredients: ingredients, steps: steps });
     }
 
     return (
